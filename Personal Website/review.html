@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- This is Home section -->
+    <nav class="nav_links">
+        <div class="max-width" id="navLinks">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <!-- <i class="fa fa-times" onclick="hideMenu"></i> -->
+            <ul class="menu">
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="biography.html">Biography</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="work_experience.html">Work Experience</a></li>
+                <li><a href="interests.html">Interests</a></li>
+                <li><a href="awards.html">Awards</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="review.html">Review</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fa fa-bars" onclick="showMenu"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- contact section start -->
+    <section class="review" id="review">
+        <div class="max-width">
+            <h2 class="title">Review</h2>
+            <div class="review-content">
+                <div class="column right">
+                    <div class="text">Review Form</div>
+                    <form class="review-form" action="#" method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" class="fullname" placeholder="Name">
+                            </div>
+                            <div class="field email">
+                                <input type="text" class="email-input" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" class="subject" placeholder="Subject">
+                        </div>
+                        <div class="field textarea">
+                            <textarea class="message" cols="30" rows="10" placeholder="Message.."></textarea>
+                        </div>
+                        <div class="radio-button">
+                            <label>Gender: </label>
+                            <div class="my-content">
+                                <input type="radio" name="size" id="samll" checked='checked'>
+                                <label for="small" class="mylabel">Male</label>
+                                <input type="radio" name="size" id="large">
+                                <label for="large" class="mylabel">Female</label>
+                                <input type="radio" name="size" id="other">
+                                <label for="other" class="mylabel">Other</label>
+                            </div>
+                        </div>
+                        <div class="checkbox-button">
+                            <label>Known Languages: </label>
+                            <div class="my-content">
+                                <input type="checkbox" name="size" id="samll" checked='checked'>
+                                <label for="small" class="mylabel">English</label>
+                                <input type="checkbox" name="size" id="large">
+                                <label for="large" class="mylabel">Urdu</label>
+                                <input type="checkbox" name="size" id="pashto">
+                                <label for="pashto" class="mylabel">Pashto</label>
+                            </div>
+                        </div>
+                        <div class="button-area">
+                            <button class="send-msg" type="submit" name="send">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

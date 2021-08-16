@@ -1,0 +1,1 @@
+This repository includes all the web development projects I have done during my university period. The first website I had created was a personal website (Biography). All the websites are created using html, css and javascript. 
